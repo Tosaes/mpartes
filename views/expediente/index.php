@@ -71,7 +71,11 @@ if(!isset($_SESSION['usuario'])){
             <?php endif; ?>
             </td>
 
+<<<<<<< HEAD
             <td>
+=======
+            <td class="d-flex justify-content-center gap-1">
+>>>>>>> c65da5af84c636c7607ee1dbda2f18baa4a43bd6
             <p title="Modificar"><a href="index.php?c=expediente&a=editar&ano_eje=<?= $exp->ano_eje ?>&nro_expediente=<?= $exp->nro_expediente ?>" class="btn btn-warning btn-sm"> <i class="fa fa-edit"></i></a> </p>
             <!--<p title="Eliminar"><a href="index.php?c=expediente&a=eliminar&ano_eje=<?= $exp->ano_eje ?>&nro_expediente=<?= $exp->nro_expediente ?>" class="btn btn-danger btn-sm" onclick="return confirm('¿Eliminar expediente?')"> <i class="fa fa-trash"></i> </a></p>-->
             </td>
